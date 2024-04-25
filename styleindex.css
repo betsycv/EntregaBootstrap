@@ -1,12 +1,20 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+
 h1.titulo {
     text-shadow: 2px 2px 4px #a19d9d;
     color: #464646;
-  }
+    font-family: "Raleway", sans-serif;
+    font-weight: 712;
+}
 
-  span.muebles {
+span.muebles {
     color: rgb(255, 255, 255);
     -webkit-text-stroke-width: 1.7px;
     -webkit-text-stroke-color: rgb(69, 69, 69);
+    font-family: "Raleway", sans-serif;
+    font-weight: 712;
 }
 
 .barra {
@@ -47,7 +55,7 @@ button.botonbusqueda:hover {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("principal.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imagenes/principal.jpg");
 
   height: 35%;
 
